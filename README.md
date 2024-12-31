@@ -54,7 +54,7 @@ print("Confusion Matrix:")
 print(cm)
 ```
 ## Output:
-[ex 07 ml.pdf](https://github.com/user-attachments/files/17848692/ex.07.ml.pdf)
+![image](https://github.com/user-attachments/assets/02fc6cff-b6b1-4f89-9186-6bef12f2dd7b)
 
 
 ## Result:
