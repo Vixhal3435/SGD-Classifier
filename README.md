@@ -7,10 +7,41 @@ To write a program to predict the type of species of the Iris flower using the S
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+
+1.Define Problem
+
+Identify the independent variables (X) and target labels (Y) in the dataset.
+
+2.Load Dataset
+
+Import and preprocess the data (e.g., handle missing values, encode categorical variables).
+
+3.Split Data
+
+Divide the dataset into training and testing subsets.
+
+4.Initialize the Model
+
+Use SGDClassifier from sklearn. Configure it to use the desired loss function such as:
+loss='hinge' for SVM,
+loss='log_loss' for logistic regression, or
+loss='modified_huber' for robust classification.
+
+5.Train the Model
+
+Fit the SGDClassifier on the training dataset.
+
+6.Evaluate the Model
+
+Use metrics like accuracy, confusion matrix, precision, recall, and F1-score for evaluation.
+
+7.Make Predictions
+
+Predict the target class for unseen data.
+
+8.Fine-Tune Parameters (Optional)
+
+Adjust hyperparameters like learning rate, regularization term, or the number of iterations to improve performance.
 
 ## Program:
 ```
